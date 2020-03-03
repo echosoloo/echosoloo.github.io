@@ -498,7 +498,7 @@
           <div align="center"><br><img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1558956326532&di=82cc9907fc903cfb978a35206986d3f6&imgtype=0&src=http%3A%2F%2Fimg.mp.itc.cn%2Fupload%2F20160809%2F31283a3e2d7f411492d3fb27297180ec_th.jpg"><br></div>
 
 
-    <div id="aplayer-CVhlqNkX" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2250011882" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="250px" data-preload="none" data-theme="#f7f7f7" data-order="random"></div>
+    <div id="aplayer-vdehAcbr" class="aplayer aplayer-tag-marker meting-tag-marker" data-id="2250011882" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="250px" data-preload="none" data-theme="#f7f7f7" data-order="random"></div>
 
         
       </div>
@@ -521,7 +521,6 @@
 
   
     <div class="comments" id="comments">
-      <div id="lv-container" data-id="city" data-uid="MTAyMC80NDM5Mi8yMDkyNA=="></div>
     </div>
 
   
@@ -868,7 +867,7 @@
       
     
   
-  <script color="255,0,255" opacity="0.7" zindex="-1" count="140" src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest.min.js"></script>
+  <script color="0,0,255" opacity="0.7" zindex="-1" count="140" src="//cdn.jsdelivr.net/gh/theme-next/theme-next-canvas-nest@1.0.0/canvas-nest.min.js"></script>
 
 
 
@@ -951,22 +950,37 @@
 
 
   
-
-
   
-    <script>
-  window.livereOptions = {
-    refer: 'guestbook/index.html'
-  };
-  (function(d, s) {
-    var j, e = d.getElementsByTagName(s)[0];
-    if (typeof LivereTower === 'function') { return; }
-    j = d.createElement(s);
-    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-    j.async = true;
-    e.parentNode.insertBefore(j, e);
-  })(document, 'script');
+
+<script src="//cdn1.lncld.net/static/js/3.11.1/av-min.js"></script>
+
+
+
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+
+<script>
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: 'QjoJkMEk6FEJj5riUknhGugX-gzGzoHsz',
+    appKey: 'uwIWsJUpbMbR1hVfGf9HN2aQ',
+    placeholder: '留言栏',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn'
+  });
 </script>
+
+
+
 
   
 
@@ -1333,7 +1347,7 @@
 
   
 
-<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/koharu.model.json"},"display":{"position":"left","width":250,"height":500},"mobile":{"show":false},"react":{"opacity":0.7},"log":false});</script></body>
+</body>
 </html>
 <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/clicklove.js"></script>
