@@ -1759,8 +1759,8 @@ pre .javascript .function {
   font-family: UKIJ Ekran;
 }
 .sidebar {
-  background: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg1.jpg") repeat !important;
-  background-image: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg1.jpg") repeat !important;
+  background: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg12.jpg") repeat !important;
+  background-image: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg12.jpg") repeat !important;
   background-size: cover !important;
   position: fixed !important;
   right: 0 !important;
@@ -1850,14 +1850,14 @@ pre .javascript .function {
 .site-author-name {
   margin: 5px 0 0;
   text-align: center;
-  color: #f5f5f5;
+  color: #000;
   font-weight: normal;
 }
 .site-description {
   margin-top: 5px;
   text-align: center;
   font-size: 14px;
-  color: #999;
+  color: #000;
 }
 .links-of-author {
   margin-top: 20px;
@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c3ffaf;
+  background: #ffff1b;
 }
 .site-author-image {
   display: block;
