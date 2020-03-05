@@ -1759,8 +1759,8 @@ pre .javascript .function {
   font-family: UKIJ Ekran;
 }
 .sidebar {
-  background: url("/images/sidebar-bg1.jpg") repeat !important;
-  background-image: url("/images/sidebar-bg1.jpg") repeat !important;
+  background: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg1.jpg") repeat !important;
+  background-image: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg1.jpg") repeat !important;
   background-size: cover !important;
   position: fixed !important;
   right: 0 !important;
@@ -1770,18 +1770,18 @@ pre .javascript .function {
 }
 .sidebar a,
 .sidebar span.exturl {
-  color: #999;
+  color: #000;
   border-bottom-color: #555;
 }
 .sidebar a:hover,
 .sidebar span.exturl:hover {
-  color: #eee;
+  color: #000;
   border-bottom-color: #eee;
 }
 .sidebar-inner {
   position: relative;
   padding: 20px 10px;
-  color: #999;
+  color: #000;
   text-align: center;
 }
 .site-overview-wrap {
@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #944265;
+  background: #c3ffaf;
 }
 .site-author-image {
   display: block;
@@ -2909,17 +2909,11 @@ hr {
   -moz-box-shadow: 0 0 5px rgba(202,203,207,0.5);
 }
 body {
-  background-image: url("/images/background.png");
+  background-image: url("http://q6pvi23qy.bkt.clouddn.com/background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.header {
-  background: rgba(255,255,255,0.5);
-}
-.footer {
-  background: rgba(255,255,255,0.5);
 }
 .post-body p a {
   color: #0593d3;
@@ -2946,7 +2940,7 @@ body {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #fff;
+background
 }
 .site-subtitle {
   margin-top: 10px;
