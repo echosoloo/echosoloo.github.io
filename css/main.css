@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4bb9e7;
+  background: #ffd0cb;
 }
 .site-author-image {
   display: block;
@@ -2136,7 +2136,7 @@ img:hover {
 .footer {
   font-size: 14px;
   color: #999;
-  background: url("#ffffff") repeat !important;
+  background: url("/images/headbg.jpg") repeat !important;
 }
 .footer img {
   border: none;
@@ -2562,7 +2562,7 @@ hr {
   margin-top: 80px;
 }
 .header {
-  background: url("/images/headbg.jpg") repeat !important;
+  background: url("#ffffff") repeat !important;
 }
 .header-inner {
   padding: 20px 0;
