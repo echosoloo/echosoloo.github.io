@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #66cc95;
+  background: #4bb9e7;
 }
 .site-author-image {
   display: block;
@@ -2136,7 +2136,7 @@ img:hover {
 .footer {
   font-size: 14px;
   color: #999;
-  background: url("/images/headbg.jpg") repeat !important;
+  background: url("#ffffff") repeat !important;
 }
 .footer img {
   border: none;
@@ -2912,16 +2912,14 @@ body {
   background-image: url("/images/background.png");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
-::selection {
-  background: #00c4b6;
-  color: #f7f7f7;
+.header {
+  background: rgba(255,255,255,0.5);
 }
-::-moz-selection {
-  background: #00c4b6;
-  color: #f7f7f7;
+.footer {
+  background: rgba(255,255,255,0.5);
 }
 .post-body p a {
   color: #0593d3;
@@ -2948,7 +2946,7 @@ body {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: #49b1f5;
+  background: #fff;
 }
 .site-subtitle {
   margin-top: 10px;
@@ -2982,10 +2980,4 @@ body {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
   transition-delay: 0s;
-}
-.header {
-  background: rgba(255,255,255,0.5);
-}
-.footer {
-  background: rgba(255,255,255,0.5);
 }
