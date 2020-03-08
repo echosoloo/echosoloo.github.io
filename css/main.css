@@ -156,7 +156,7 @@ body {
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 14px;
   line-height: 2;
-  color: #555;
+  color: #fff;
   background: #fff;
 }
 @media (max-width: 991px) {
@@ -1880,7 +1880,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #9fffff;
+  background: #1b2044;
 }
 .site-author-image {
   display: block;
@@ -2136,7 +2136,7 @@ img:hover {
 .footer {
   font-size: 14px;
   color: #999;
-  background: url("/images/headbg.jpg") repeat !important;
+  background: url("#ffffff") repeat !important;
 }
 .footer img {
   border: none;
@@ -2915,6 +2915,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+#footer a {
+  color: #fff f;
+}
 .post-body p a {
   color: #0593d3;
   border-bottom: none;
@@ -2935,7 +2938,7 @@ body {
 }
 .headband {
   height: 3px;
-  background: #49b1f5;
+  background: #ff1493;
 }
 .site-meta {
   padding: 20px 0;

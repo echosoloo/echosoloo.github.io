@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://echosoloo.github.io/"/>
-  <updated>2020-03-05T14:25:13.426Z</updated>
+  <updated>2020-03-08T06:16:21.189Z</updated>
   <id>https://echosoloo.github.io/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Javascript学习笔记</title>
+    <link href="https://echosoloo.github.io/2020/03/08/JavaScript%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%E3%80%8A%E4%B8%80%E3%80%8B.html"/>
+    <id>https://echosoloo.github.io/2020/03/08/JavaScript学习笔记《一》.html</id>
+    <published>2020-03-08T04:00:00.000Z</published>
+    <updated>2020-03-08T06:16:21.189Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;/assets/css/APlayer.min.css&quot;&gt;&lt;script src=&quot;/assets/js/APlayer.min.js&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="develop" scheme="https://echosoloo.github.io/categories/develop/"/>
+    
+    
+      <category term="javascript" scheme="https://echosoloo.github.io/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
     <title>我打江南走过！</title>
     <link href="https://echosoloo.github.io/2019/06/15/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2.html"/>
     <id>https://echosoloo.github.io/2019/06/15/第一篇博客.html</id>
     <published>2019-06-15T04:00:00.000Z</published>
-    <updated>2020-03-05T14:25:13.426Z</updated>
+    <updated>2020-03-08T05:46:31.429Z</updated>
     
     <summary type="html">
     
