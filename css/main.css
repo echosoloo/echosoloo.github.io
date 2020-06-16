@@ -1758,6 +1758,16 @@ pre .javascript .function {
 .rtl.post-title {
   font-family: UKIJ Ekran;
 }
+.reading-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000000;
+}
 .sidebar {
   background: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg12.jpg") repeat !important;
   background-image: url("http://q6pvi23qy.bkt.clouddn.com/sidebar-bg12.jpg") repeat !important;
@@ -1880,7 +1890,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #49b896;
+  background: #66582e;
 }
 .site-author-image {
   display: block;
@@ -2935,6 +2945,11 @@ body {
 ::-moz-selection {
   background: #49b1f5;
   color: #fff;
+}
+code {
+  color: #000;
+  background: #f9f2f4;
+  border: 1px solid #d6d6d6;
 }
 .headband {
   height: 3px;
